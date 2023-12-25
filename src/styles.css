@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.product {
+  position: relative;
+  /* overflow: hidden; */
+  padding: 26px;
+}
+.container {
+  display: flex;
+  padding: 0px 10px;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(169, 125, 214);
+  margin: 10px;
+  border-radius: 20px;
+  color: white;
+}
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.pre-btn {
+  left: 0;
+}
+.next-btn {
+  right: 0;
+}
+.pre-btn p,
+.next-btn p {
+  font-size: 50px;
+  background-color: rgb(91, 69, 112);
+  color: white;
+  cursor: pointer;
+}
