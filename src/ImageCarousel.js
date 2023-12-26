@@ -3,7 +3,10 @@ import Card from "./Card";
 const Imagecarousel = () => {
   let box = document.querySelector("product");
   const cardNumbers = Array.from({ length: 10 }, (card, index) => index + 1);
-  const prev = () => {};
+  const prev = () => {
+    box = box.clientWidth;
+    box.scrollLeft = box.scrollLeft - width;
+  };
   const next = () => {};
   return (
     <div className="product">
