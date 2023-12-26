@@ -7,7 +7,10 @@ const Imagecarousel = () => {
     box = box.clientWidth;
     box.scrollLeft = box.scrollLeft - width;
   };
-  const next = () => {};
+  const next = () => {
+    box = box.clientWidth;
+    box.scrollLeft = box.scrollLeft + width;
+  };
   return (
     <div className="product">
       <button className="pre-btn" onClick={prev}>

@@ -4,13 +4,13 @@
 }
 .product {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   padding: 26px;
 }
 .container {
   display: flex;
   padding: 0px 10px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
